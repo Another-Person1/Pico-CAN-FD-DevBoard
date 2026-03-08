@@ -5321,6 +5321,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 237.49) (xy 176.53 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b32a9b7-53a7-4285-95c3-3d02ecc12179")
+	)
+	(wire
+		(pts
 			(xy 170.18 217.17) (xy 176.53 217.17)
 		)
 		(stroke
@@ -6341,6 +6351,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 191.77) (xy 241.3 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e05c9686-66f9-4cbd-a074-73add88364d9")
+	)
+	(wire
+		(pts
 			(xy 335.28 138.43) (xy 336.55 138.43)
 		)
 		(stroke
@@ -6632,6 +6652,28 @@
 		(uuid "5ae408ae-ed0f-48d5-bb02-8cba7c02ae64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.83 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_CS1"
+		(shape input)
+		(at 241.3 191.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e53562c-387d-4bbc-83e9-cb141e877a89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.3566 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)

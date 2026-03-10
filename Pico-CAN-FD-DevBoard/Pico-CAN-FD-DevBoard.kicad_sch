@@ -6804,6 +6804,15 @@
 		(uuid "05a4366d-8910-4683-873d-9d1956d7c8fe")
 	)
 	(bus_entry
+		(at 177.8 185.42)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bc1961-f069-4d23-b76b-9dc2ffe8c02c")
+	)
+	(bus_entry
 		(at 264.16 116.84)
 		(size 2.54 2.54)
 		(stroke
@@ -6811,6 +6820,15 @@
 			(type default)
 		)
 		(uuid "080296d5-ce43-4276-9766-34684200ad0f")
+	)
+	(bus_entry
+		(at 177.8 193.04)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc569da-a5a0-4f19-a464-335194156019")
 	)
 	(bus_entry
 		(at 264.16 119.38)
@@ -6831,6 +6849,15 @@
 		(uuid "592aa536-980a-47b8-b4f4-83197497bcf0")
 	)
 	(bus_entry
+		(at 177.8 190.5)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd69c05-f2cb-4a68-be40-73bdbea78e21")
+	)
+	(bus_entry
 		(at 264.16 114.3)
 		(size 2.54 2.54)
 		(stroke
@@ -6847,6 +6874,15 @@
 			(type default)
 		)
 		(uuid "deeacc0b-f1a8-4cfa-bc06-9d2706b814e3")
+	)
+	(bus_entry
+		(at 177.8 187.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff684cb-2976-4fef-bf15-19fefb56414c")
 	)
 	(wire
 		(pts
@@ -6877,6 +6913,16 @@
 			(type default)
 		)
 		(uuid "01144f10-8d30-4be5-8b59-b15fd5d3faf6")
+	)
+	(bus
+		(pts
+			(xy 177.8 187.96) (xy 177.8 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d99aff-dcb2-4872-ae2c-3b154542bcbf")
 	)
 	(wire
 		(pts
@@ -7247,6 +7293,16 @@
 			(type default)
 		)
 		(uuid "21ef2694-5af1-4458-b5e8-6dbe30adb911")
+	)
+	(bus
+		(pts
+			(xy 177.8 185.42) (xy 177.8 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f6de53-cd38-4254-a3aa-a6cab961793d")
 	)
 	(wire
 		(pts
@@ -9620,6 +9676,16 @@
 	)
 	(bus
 		(pts
+			(xy 177.8 193.04) (xy 177.8 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6856879-1a6d-431a-954c-cf38e1120a0a")
+	)
+	(bus
+		(pts
 			(xy 266.7 116.84) (xy 266.7 119.38)
 		)
 		(stroke
@@ -9778,6 +9844,16 @@
 		)
 		(uuid "f54617e4-bfa4-408d-91b5-6558687f799b")
 	)
+	(bus
+		(pts
+			(xy 177.8 190.5) (xy 177.8 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55004ad-d884-42f8-8ab3-ed8060bedc01")
+	)
 	(wire
 		(pts
 			(xy 182.88 39.37) (xy 194.31 39.37)
@@ -9847,6 +9923,16 @@
 			(type default)
 		)
 		(uuid "fe6c2206-a103-424d-b85b-872a62a06601")
+	)
+	(label "ADC[0..7]"
+		(at 177.8 198.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26c14cb7-7a72-4eb9-9030-5bfd1ffed0b8")
 	)
 	(label "NPXL_3V3_4"
 		(at 252.73 124.46 0)
@@ -13145,6 +13231,92 @@
 			(project "Pico-CAN-FD-DevBoard"
 				(path "/a8df20cc-31fb-4360-ac7f-9e5ea21059e1"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 25.4 168.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "514915fa-eb6c-4a26-bae8-748aa11002a4")
+		(property "Reference" "J4"
+			(at 25.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 25.4 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 25.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "624a7d30-2717-49ad-92d2-16b55bd87c08")
+		)
+		(pin "8"
+			(uuid "71d9776d-d28c-4553-b88b-b72502317566")
+		)
+		(pin "7"
+			(uuid "74b17d65-f359-4402-912c-186d1ea8f6b6")
+		)
+		(pin "6"
+			(uuid "3517de2d-c0c5-4886-acb4-03ae4447a4cd")
+		)
+		(pin "5"
+			(uuid "3112d718-b1cd-47ab-9e2c-6f06f59cb82b")
+		)
+		(pin "2"
+			(uuid "659fb723-ff99-4174-a512-19ef0622f360")
+		)
+		(pin "4"
+			(uuid "cc44fff5-de05-43ff-8fa3-7df5c0e1cd05")
+		)
+		(pin "1"
+			(uuid "97f6c04d-6945-46c5-9b2e-1a8f18e7a06e")
+		)
+		(instances
+			(project ""
+				(path "/a8df20cc-31fb-4360-ac7f-9e5ea21059e1"
+					(reference "J4")
 					(unit 1)
 				)
 			)

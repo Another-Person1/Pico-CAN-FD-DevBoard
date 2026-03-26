@@ -4969,6 +4969,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:TLV1117-33"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV1117-33"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223* TO?263* TO?252* TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV1117-33_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV1117-33_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -5337,6 +5477,150 @@
 				(pin unspecified line
 					(at -5.08 -1.27 0)
 					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:BLM18PG121SN1D_C14709"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BLM18PG121SN1D_C14709"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:L0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Ferrite-Beads-And-Chips_MuRata_BLM18PG121SN1D_120R-25-at100MHz_C14709.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C14709"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BLM18PG121SN1D_C14709_0_1"
+				(arc
+					(start -2.27 -0.02)
+					(mid -3.28 -0.9427)
+					(end -4.29 -0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.11 -0.02)
+					(mid -1.12 -0.9471)
+					(end -2.13 -0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.04 -0.02)
+					(mid 1.03 -0.9471)
+					(end 0.02 -0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.23 -0.02)
+					(mid 3.22 -0.9471)
+					(end 2.21 -0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 0.762)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 0.762)
 					(name "2"
 						(effects
 							(font
@@ -5769,6 +6053,150 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:SMCJ24A_C19077604"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMCJ24A_C19077604"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SMC_L6.9-W5.9-LS7.9-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C19077604"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMCJ24A_C19077604_0_1"
+				(polyline
+					(pts
+						(xy -1.78 1.27) (xy -1.78 1.78) (xy -1.27 1.78) (xy -1.27 -1.78) (xy -0.76 -1.78) (xy -0.76 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.78) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7373,7 +7801,7 @@
 	)
 	(text "12V to 3.3V 600mA"
 		(exclude_from_sim no)
-		(at 40.64 99.314 0)
+		(at 32.766 86.868 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7568,10 +7996,22 @@
 		(uuid "75977ab0-d073-4af3-a2f8-a271c9088570")
 	)
 	(junction
+		(at 41.91 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a4a2342-3c1f-435b-9b3d-e9a1c2ca24cf")
+	)
+	(junction
 		(at 250.19 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7aade554-df0d-4f5e-bfbb-e0a7dd9b6d5d")
+	)
+	(junction
+		(at 41.91 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b62c972-8cad-4485-99a7-3514caa06669")
 	)
 	(junction
 		(at 276.86 195.58)
@@ -7664,10 +8104,22 @@
 		(uuid "a75fe357-065f-4545-911f-debd44ccea78")
 	)
 	(junction
+		(at 69.85 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9393e0b-4dd4-47bd-ae0a-b6a2d7b77111")
+	)
+	(junction
 		(at 205.74 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aafa0ba8-c037-4821-bafe-fa238d491924")
+	)
+	(junction
+		(at 39.37 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0226796-e8e2-4326-8de5-5d2b1219168d")
 	)
 	(junction
 		(at 535.94 62.23)
@@ -7820,12 +8272,6 @@
 		(uuid "eab624ee-23d3-4461-968b-9249cd71d5ea")
 	)
 	(junction
-		(at 39.37 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eba5e8e1-191e-4461-8dc7-d5d40ef5f898")
-	)
-	(junction
 		(at 528.32 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7854,6 +8300,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5b73fb7-e51b-4f56-8b2b-bdd2d85bcb2b")
+	)
+	(junction
+		(at 69.85 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7316254-2125-41c4-869f-d0445fc4ee03")
 	)
 	(junction
 		(at 299.72 187.96)
@@ -8375,6 +8827,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 203.2) (xy 69.85 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02bfe830-06dc-45ba-abd3-32a4db21afc7")
+	)
+	(wire
+		(pts
 			(xy 312.42 302.26) (xy 342.9 302.26)
 		)
 		(stroke
@@ -8532,16 +8994,6 @@
 			(type default)
 		)
 		(uuid "0dfda5e2-c0f2-4a68-ab51-78caa75896ca")
-	)
-	(wire
-		(pts
-			(xy 29.21 209.55) (xy 36.83 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e1978a8-54f1-46ea-b448-b2fb497233c4")
 	)
 	(wire
 		(pts
@@ -8965,6 +9417,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 212.09) (xy 35.56 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2057e8d1-652e-4cb7-b3f6-5b53e358971c")
+	)
+	(wire
+		(pts
 			(xy 30.48 191.77) (xy 33.02 191.77)
 		)
 		(stroke
@@ -9262,6 +9724,16 @@
 			(type default)
 		)
 		(uuid "2e341583-15b6-444a-aa4a-e41ef7860743")
+	)
+	(wire
+		(pts
+			(xy 39.37 114.3) (xy 39.37 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30686fbc-a5fa-43b0-ac44-dedb039aadf4")
 	)
 	(wire
 		(pts
@@ -9585,16 +10057,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 209.55) (xy 36.83 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45898918-0c2a-45e9-a03b-8f7c52da8113")
-	)
-	(wire
-		(pts
 			(xy 53.34 358.14) (xy 53.34 365.76)
 		)
 		(stroke
@@ -9672,6 +10134,16 @@
 			(type default)
 		)
 		(uuid "488ebbe9-84b5-40b8-9d23-25a4962f7303")
+	)
+	(wire
+		(pts
+			(xy 41.91 213.36) (xy 69.85 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4977b4e4-d378-4735-9507-26085f937b7d")
 	)
 	(wire
 		(pts
@@ -9992,6 +10464,16 @@
 			(type default)
 		)
 		(uuid "5a6fbad0-b9e2-4ce6-97fb-4fb6f809e5e5")
+	)
+	(wire
+		(pts
+			(xy 30.48 114.3) (xy 39.37 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b03b299-0660-4c7b-80e5-d44c900ce567")
 	)
 	(wire
 		(pts
@@ -10585,13 +11067,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 115.57) (xy 39.37 121.92)
+			(xy 29.21 209.55) (xy 31.75 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cd29547-33e4-43ee-a948-5b93ec2be435")
+		(uuid "7cfc6b1a-7a95-482f-8504-122f2b6b1213")
 	)
 	(wire
 		(pts
@@ -10732,6 +11214,16 @@
 			(type default)
 		)
 		(uuid "849c0cb4-8b63-4eb8-963b-7b940814a65d")
+	)
+	(wire
+		(pts
+			(xy 92.71 213.36) (xy 69.85 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859269b3-f6ea-4ec4-a3ef-e73af9ebfc99")
 	)
 	(wire
 		(pts
@@ -10915,6 +11407,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 220.98) (xy 92.71 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d47ddd5-309a-4797-8efb-b9b10ea92b70")
+	)
+	(wire
+		(pts
 			(xy 539.75 280.67) (xy 554.99 280.67)
 		)
 		(stroke
@@ -10922,6 +11424,16 @@
 			(type default)
 		)
 		(uuid "8e7e774d-b451-423b-b7e8-a5eed919cfcc")
+	)
+	(wire
+		(pts
+			(xy 92.71 195.58) (xy 92.71 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e97c3bd-eb5e-4246-86c5-fb034871e52b")
 	)
 	(wire
 		(pts
@@ -11092,6 +11604,16 @@
 			(type default)
 		)
 		(uuid "9672289e-38f4-4519-b4c8-01bec1c196ad")
+	)
+	(wire
+		(pts
+			(xy 35.56 213.36) (xy 41.91 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9694569f-fc7e-46ce-902c-2446642d127a")
 	)
 	(wire
 		(pts
@@ -11312,6 +11834,16 @@
 			(type default)
 		)
 		(uuid "a2cf8a3e-133f-48d4-97a9-7eff07ca2fa2")
+	)
+	(wire
+		(pts
+			(xy 31.75 203.2) (xy 41.91 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a8ffe1-8f56-4014-8af5-39a955671307")
 	)
 	(wire
 		(pts
@@ -11685,6 +12217,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 212.09) (xy 35.56 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9805a7e-d241-41ff-8ef4-a3cd5c8a59ab")
+	)
+	(wire
+		(pts
 			(xy 105.41 361.95) (xy 105.41 369.57)
 		)
 		(stroke
@@ -11905,6 +12447,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 109.22) (xy 30.48 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5008e1d-a3ce-4bb7-9b2a-4c72c3f96f49")
+	)
+	(wire
+		(pts
 			(xy 34.29 194.31) (xy 34.29 179.07)
 		)
 		(stroke
@@ -11912,6 +12464,16 @@
 			(type default)
 		)
 		(uuid "c53145c0-b2ed-41fa-89ed-65d46eef80d9")
+	)
+	(wire
+		(pts
+			(xy 69.85 203.2) (xy 92.71 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f3b3dd-6e3f-43cc-ac40-009eb6282f29")
 	)
 	(wire
 		(pts
@@ -11972,6 +12534,16 @@
 			(type default)
 		)
 		(uuid "c9c17f98-b08b-4d2b-884e-5a59d58b6ae3")
+	)
+	(wire
+		(pts
+			(xy 30.48 95.25) (xy 30.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6735e3-4c1a-478c-bb07-814dcb6d0d52")
 	)
 	(wire
 		(pts
@@ -12105,16 +12677,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 212.09) (xy 36.83 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d147b03f-afca-46ca-9d41-14b514257fb6")
-	)
-	(wire
-		(pts
 			(xy 546.1 323.85) (xy 546.1 321.31)
 		)
 		(stroke
@@ -12122,16 +12684,6 @@
 			(type default)
 		)
 		(uuid "d19db830-1fd9-47a3-af2f-90dbda7fa69e")
-	)
-	(wire
-		(pts
-			(xy 29.21 212.09) (xy 36.83 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d24ff9bb-efba-45b3-aadb-0b738349a830")
 	)
 	(wire
 		(pts
@@ -12922,6 +13474,16 @@
 			(type default)
 		)
 		(uuid "f9cdb5ee-5653-4609-bcb5-22c932446115")
+	)
+	(wire
+		(pts
+			(xy 31.75 209.55) (xy 31.75 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4c519f-c7ea-4e9c-b676-cc623ee3b126")
 	)
 	(wire
 		(pts
@@ -15887,7 +16449,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 214.63 0)
+		(at 92.71 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15896,7 +16458,7 @@
 		(fields_autoplaced yes)
 		(uuid "1790c1ef-5996-4d85-8a2c-b8ebfe9768ca")
 		(property "Reference" "#PWR040"
-			(at 36.83 220.98 0)
+			(at 92.71 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15905,7 +16467,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 219.71 0)
+			(at 92.71 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15913,7 +16475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 214.63 0)
+			(at 92.71 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15922,7 +16484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 214.63 0)
+			(at 92.71 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15931,7 +16493,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 214.63 0)
+			(at 92.71 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16082,6 +16644,85 @@
 			(project ""
 				(path "/a8df20cc-31fb-4360-ac7f-9e5ea21059e1"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SMCJ24A_C19077604")
+		(at 41.91 208.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a874c92-61cd-4269-b83f-fc9091978324")
+		(property "Reference" "D1"
+			(at 44.45 207.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMCJ24A_C19077604"
+			(at 44.45 209.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SMC_L6.9-W5.9-LS7.9-RD"
+			(at 34.29 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19077604"
+			(at 31.75 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd722c6b-b91a-4325-ba01-ccf5b5e04b7c")
+		)
+		(pin "2"
+			(uuid "b9475fb6-f39d-42a9-a4cc-cc8c4074cc5d")
+		)
+		(instances
+			(project ""
+				(path "/a8df20cc-31fb-4360-ac7f-9e5ea21059e1"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -17817,6 +18458,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:TLV1117-33")
+		(at 73.66 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51f3beba-cc9a-47e7-9eb0-81646cbffa94")
+		(property "Reference" "U8"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV1117-33"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bbe5363-ae3a-44b1-a399-d29e547aa713")
+		)
+		(pin "2"
+			(uuid "35f434c3-b45b-4819-8fad-51500d2628ff")
+		)
+		(pin "3"
+			(uuid "762e63d9-c9fe-4581-a724-c6f64450a9dd")
+		)
+		(instances
+			(project ""
+				(path "/a8df20cc-31fb-4360-ac7f-9e5ea21059e1"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 182.88 31.75 0)
 		(unit 1)
@@ -18303,6 +19015,85 @@
 			(project ""
 				(path "/a8df20cc-31fb-4360-ac7f-9e5ea21059e1"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BLM18PG121SN1D_C14709")
+		(at 30.48 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62191017-24a7-4f15-92db-e399b9b9923a")
+		(property "Reference" "L2"
+			(at 33.02 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BLM18PG121SN1D_C14709"
+			(at 33.02 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:L0603"
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Ferrite-Beads-And-Chips_MuRata_BLM18PG121SN1D_120R-25-at100MHz_C14709.html"
+			(at 40.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14709"
+			(at 43.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6e44789-11af-4da0-a17e-9a3639e80546")
+		)
+		(pin "1"
+			(uuid "380b79df-c130-424e-9cac-28043ba98bde")
+		)
+		(instances
+			(project ""
+				(path "/a8df20cc-31fb-4360-ac7f-9e5ea21059e1"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -19203,6 +19994,85 @@
 			(project ""
 				(path "/a8df20cc-31fb-4360-ac7f-9e5ea21059e1"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SMCJ24A_C19077604")
+		(at 69.85 208.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a252295-97e3-411e-82ad-ad7a3b2f8862")
+		(property "Reference" "D2"
+			(at 72.39 207.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMCJ24A_C19077604"
+			(at 72.39 209.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SMC_L6.9-W5.9-LS7.9-RD"
+			(at 62.23 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19077604"
+			(at 59.69 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be5c3362-58d7-44e9-921a-86d6abfb5740")
+		)
+		(pin "2"
+			(uuid "f774a9c7-eb67-4afe-8b45-60971138ed0b")
+		)
+		(instances
+			(project "Pico-CAN-FD-DevBoard"
+				(path "/a8df20cc-31fb-4360-ac7f-9e5ea21059e1"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -22880,7 +23750,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 39.37 115.57 0)
+		(at 30.48 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22889,7 +23759,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1f50b5e-1104-4b9d-99fb-1919896064a0")
 		(property "Reference" "#PWR047"
-			(at 39.37 119.38 0)
+			(at 30.48 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22898,7 +23768,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 39.37 110.49 0)
+			(at 30.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22906,7 +23776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 115.57 0)
+			(at 30.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22915,7 +23785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 115.57 0)
+			(at 30.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22924,7 +23794,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 39.37 115.57 0)
+			(at 30.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23962,7 +24832,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 36.83 205.74 0)
+		(at 92.71 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23971,7 +24841,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9d24917-a1cb-4167-aa32-b3f8997fd8f2")
 		(property "Reference" "#PWR039"
-			(at 36.83 209.55 0)
+			(at 92.71 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23980,7 +24850,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 36.83 200.66 0)
+			(at 92.71 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23988,7 +24858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 205.74 0)
+			(at 92.71 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23997,7 +24867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 205.74 0)
+			(at 92.71 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24006,7 +24876,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 36.83 205.74 0)
+			(at 92.71 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
